@@ -74,7 +74,7 @@
                   <option value="wifi">Wifi</option>
                   <option value="heater">Nóng lạnh</option>
                   <option value="air_conditioner">Điều hòa</option>
-                  <option value="chung_chu">Chung chủ</option>
+                  <option value="ko_chung_chu">Không chung chủ</option>
 
                 </select>
               </div>

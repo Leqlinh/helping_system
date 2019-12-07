@@ -75,10 +75,10 @@ class ApartmentController extends Controller
             } else {
                 $air_conditioner = 0;
             }
-            if (in_array('chung_chu', $utilities)) {
-                $chung_chu = 1;
-            } else {
+            if (in_array('ko_chung_chu', $utilities)) {
                 $chung_chu = 0;
+            } else {
+                $chung_chu = 1;
             }
 
             $result = $query->when($wifi, function ($query, $wifi) {
